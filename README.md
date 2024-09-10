@@ -13,7 +13,7 @@ Analyze United States hospital readmission rates for possible geographic and soc
 
 ## Table of Contents
 * Data Cleaning Notebook
-  * includes all of our raw data cleaned into dataframes that were leveraged in the Dataanlytics notebook
+  * includes raw data cleaned into DataFrames that were leveraged in the Data Analytics Notebook
 * Data Analytics Notebook
   * Readmission rate by state & race
   * readmission rate by state
@@ -22,12 +22,12 @@ Analyze United States hospital readmission rates for possible geographic and soc
   * Chart worst 4 and best 4 states including race to state
   * Show that there is a nominal variance between readmission rates even among the best and worst 4 states in the country
   * Chart bar graph race by income level for worst and best 4 states in the country
-  * Chart stacked bar graph for race by income for worst and best states
+  * Chart stacked bar graph for race by income level for worst and best 4 states in the country
   * Used the describe function to display the statistical variance we have for the second set of data
   
 ## Summary
-The goal of this project was to answer the two questions above and we started by leveraging two datasets.  We located one dataset from Centers for Medicare data around readmission rates in hospitals by Geo, State, and Race.  The second dataset was the American Community Survey data that was able to display State and Race data per income level in the US.  We ran this study to see how effective the new laws of Medicare have been since starting a new project to lower hospital readmission rates in the US.
+The goal of this project was to answer the two questions above and we started by leveraging two datasets.  We located one dataset from Centers for Medicare data around readmission rates in hospitals by Geo, State, and Race.  The second dataset was the American Community Survey data that was able to display State and Race data per income level in the US.  We ran this study to see how effective the new Medicare have been since starting a new project to lower hospital readmission rates in the US.
 
 We go through our analysis by first showing if there is an influence that geography may play in readmission rates in the US, which we determine there is based on the first set of charts.  Thereafter, we further analyze any socioeconomic influences the second dataset may display as it relates to race and income and its effects on readmission rates in the US.  
 
-We conclude that there is a difference among readmission rates for the best 4 and worst states in terms of readmission and the worst four look to have a wealthier overall population.  However, the larger conclusion we can draw from the study is that all 50 states only have a 2% overall variance in terms of readmission rates which shows that the new project and law set to lower and standardize readmission rates in the US is effective.  
+We conclude that there is a difference among readmission rates for the best 4 and worst states in terms of readmission and the worst four states appear to have a wealthier overall population. However, the larger conclusion we can draw from the study is that all 50 states only have a 2% overall variance in terms of readmission rates which shows that the new project and law set to lower and standardize readmission rates in the US is effective.  
